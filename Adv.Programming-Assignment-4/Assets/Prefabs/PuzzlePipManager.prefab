@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8876766623578571899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8876766623578571897}
+  - component: {fileID: 8876766623578571898}
+  m_Layer: 0
+  m_Name: PuzzlePipManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8876766623578571897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876766623578571899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8876766623578571898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876766623578571899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ed8d4f2ae8885408040008c7f46103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pipes:
+  - {fileID: 7374033699306800527, guid: 4f63424032c46f340ae4087aba9e8512, type: 3}
+  - {fileID: 7039088323695680607, guid: 9cd3d6aa80612fd418b0166db62fd366, type: 3}
+  - {fileID: 8559673480721924427, guid: d1e19a65d7ba3354dba725fddd8217ac, type: 3}
+  - {fileID: 1430709280454830317, guid: 96d397fd5f0346443ac49bf7024605a8, type: 3}
+  - {fileID: 4041759399742014787, guid: 0cc955dd07b6b2543b271bc7112cbadd, type: 3}
+  - {fileID: 1585989120049692010, guid: 38d8537fe488a3a4f9e948b03c70cdd7, type: 3}
+  tilePrefab: {fileID: 5729684652452815591, guid: 6b5f29bd8087613409123166a10aaf9b, type: 3}
+  bombPipePrefab: {fileID: 8665838732694698339, guid: 2ac2772e56739624287d110aac0cc844, type: 3}
+  entryPipePrefab: {fileID: 3431319001176420515, guid: be4eaa6b7c2692843980c48fb25054de, type: 3}
+  exitPipePrefab: {fileID: 8404544853958468457, guid: 4d5b97d7d5f3570468103b86ec7aab96, type: 3}
+  boardSizeX: 9
+  boardSizeY: 6
+  gameMode: 0
+  playerSkill: 0
+  activePipe: {fileID: 0}
+  reachedEndPipe: 0
